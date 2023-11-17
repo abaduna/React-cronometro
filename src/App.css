@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 body{
@@ -30,5 +33,47 @@ circle:nth-child(2){
   width: 50%;
 }
 .cronometro{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+
+}
+.container {
+  position: relative;
+  
+
+
+  
+}
+
+.container .segundos {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .minutos {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.segundos{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.btn-centar{
+  position: absolute;
+  top: 120px;
+  left: 70px;
+
+}
+button{
+  background-color: rgba(32, 117, 113, 0.836);
+  color: antiquewhite;
+}
+button:hover{
+  background-color: rgb(32, 117, 113);
+}
+.titulo{
   color: white;
 }
